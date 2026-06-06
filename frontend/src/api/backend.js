@@ -1,8 +1,8 @@
 import axios from 'axios'
 
 const TOKEN_KEY = 'fraudshield_token'
-const PROD_DEFAULT_BASE = '/backend'
-const DEV_PROXY_BASE = '/backend'
+const PROD_DEFAULT_BASE = 'https://sahana.infinityfree.io/backend'
+const DEV_PROXY_BASE = 'https://sahana.infinityfree.io/backend'
 
 let BASE = (import.meta.env.VITE_API_BASE_URL || '').replace(/\/$/, '')
 
